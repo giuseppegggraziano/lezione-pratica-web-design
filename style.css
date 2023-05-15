@@ -1,0 +1,185 @@
+@import url
+('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+body {
+    height: 100%;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+    margin-right: 8%;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 350%;
+    color: white;
+}
+
+.h1-div{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 30%;
+    margin-left: 0%;
+}
+
+.h1-menu {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 30%;
+    margin-left: 1%;
+} 
+
+.h1-name{
+    color: black;
+    margin-left: 0%;
+    position: relative;
+    margin-bottom: 0%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.description-name{
+    display: flex;
+    justify-items: flex-end;
+    margin-left: 32%;
+    margin-bottom: 0%;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 300%;
+    margin-left: 2%;
+    position: relative;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 200%;
+    text-align: center;
+    color: black;
+}
+#divtitolo{
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 2%;
+}
+
+#sfondolanding {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -22%;
+    z-index: -2;
+}
+
+#maincontainer{
+    position: absolute;
+    width: 100%;
+}
+.text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+#grid {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+}
+
+.card-img{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.name{
+    font-size: 100%;
+}
+
+.contatti-finale{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+footer {
+    position: absolute;
+    bottom: -280%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+
+  li, .copyright, .contact-info{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .h3-footer{
+    text-align: left;
+    color: black;
+  }
+
+  .social{
+    color: blue;
+  }
+
+
+.name-grid{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%; 
+}
+
+.card-div{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.description-name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+.name-txt{
+    width: 150%;
+    border: 1px solid red;
+}
+
+.footer-name{
+    margin-bottom: 60%;
+}
